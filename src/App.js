@@ -1,4 +1,5 @@
-import "./App.css";
+// import "./css/style.css";
+import './App.css';
 import logo from "./images/logo_d.svg";
 import agent1 from "./images/agent-1 (1).svg";
 import agent2 from "./images/agent-2-seo.svg";

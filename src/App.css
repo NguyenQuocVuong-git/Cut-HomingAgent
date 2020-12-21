@@ -15,6 +15,12 @@ body {
   margin-top: 3%;
 }
 
+button {
+  box-shadow: 0 10px 20px rgba(32,1,67,0.25);
+}
+
+
+
 .space__top {
   margin-top: 5%;
 }
@@ -22,6 +28,18 @@ body {
 .space__top p{
   font-weight: 300;
 }
+
+.space__top .firts-title__text h1 {
+  width: 168%;
+}
+
+.space__top .firts-title__text h5 {
+  font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    letter-spacing: -0.2px;
+}
+
 
 
 .header {
@@ -32,6 +50,11 @@ body {
   height: 56px;
   width: 100%;
   display: flex;
+}
+
+header .header-left .search-area button , header .header-right button {
+  box-shadow: none;
+  margin-left: 8px;
 }
 
 
@@ -143,14 +166,21 @@ border-radius: 0 !important;
   display: flex;
 }
 
+#benifit h2  , #premarket h2{
+
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
 .firts-title__text {
   display: flex;
   
 }
 
-#clients .clients__team .images {
+/* #clients .clients__team .images {
   right: 10%;
-}
+} */
 
 #clients h3 {
   font-weight: 400;
@@ -230,8 +260,14 @@ strong {
 
 
 .benifit__text {
-  width: 26%;
+  width: 30%;
   margin-left: 10%;
+}
+
+#benifit .benifit-icon p {
+  margin-top: 24px;
+  color: black;
+  font-weight: 600;
 }
 
 .benifit__step .step button {
@@ -277,6 +313,25 @@ header {
   left: 0;
 }
 
+#clients h2  , #profile h2 , #collaborate h2 {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+#clients h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700 !important;
+  margin-bottom: 16px;
+}
+
+#clients h5 , #collaborate h5 , #marketplace h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 #clients .images .clients img {
   width: 180px;
   border-radius: 32px;
@@ -288,19 +343,22 @@ header {
   top: 38px;
 }
 
-#clients .images .clients .child-2{
+
+
+#clients .images .clients .child-2 {
   position: absolute;
-    right: -40px;
+  right: -65px;
 }
 
-
-#clients .images .clients .child-3{
+#clients .images .clients .child-3 {
   right: -56px;
   position: absolute;
-  bottom: -31px;
-  right: -35px;
-
+  bottom: -34px;
+  right: -70px;
 }
+
+
+
 
 #clients  .clients__team {
   display: flex;
@@ -323,6 +381,11 @@ header {
 #profile .images {
   position: relative;
   min-height: 600px;
+}
+
+#profile .profile__text p {
+  margin-bottom: 4px;
+  font-size: 16px;
 }
 
 #profile .images .profile__block___images1 {
@@ -495,7 +558,6 @@ footer .footer__block2 {
   border-radius: 10px;
   width: 26%;
   color: white;
-  box-shadow: 0 1px 10px rgba(72, 72, 72, 0.1);
 }
 
 .btn-menu{
@@ -517,7 +579,7 @@ margin-right: 6px;
 /* REPONSIVE */
 @media (max-width: 768px) {
   .space__top .firts-title__image img {
-    width: 128%;
+    width: 100%;
   }
   .benifit-icon {
     display: block;
@@ -542,8 +604,12 @@ margin-right: 6px;
 
   }
 
-  .space__top .firts-title__image {
+  /* .space__top .firts-title__image {
     width: 80%;
+  } */
+
+  .space__top .firts-title__text .firts-top-title {
+    width: 444px;
   }
 
   #premarket .off-set4 {
@@ -560,6 +626,20 @@ margin-right: 6px;
      display: block;
      right: 0%;
   }
+
+  #clients .images .clients .child-2{
+    position: absolute;
+      right: 3px;
+  }
+
+  #clients .images .clients .child-3{
+    position: absolute;
+    bottom: -34px;
+    right: 3px;
+  
+  }
+
+
 
   #profile .profile__display {
     display :block ;
@@ -619,6 +699,10 @@ margin-right: 6px;
   .header{
     padding: 0 15px;
   }
+
+  .space__top .firts-title__text h1 {
+    width: 100%;
+}
 }
 
 
