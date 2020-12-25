@@ -561,9 +561,20 @@ footer .footer__block2 {
 }
 
 .btn-menu{
-display: none;
-margin-right: 6px;
+    display: none;
+    margin-right: 6px;
     padding: 6px;
+}
+.nav-mobile{
+  display: none;
+  position: fixed;
+  top:0;
+  left: 0;
+  
+}
+
+.nav-mobile--show{
+  display: block;
 }
 
 
