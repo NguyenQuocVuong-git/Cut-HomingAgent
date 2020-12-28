@@ -599,10 +599,11 @@ function App() {
                     <h1>
                       Turn your
                       <strong>
-                        &nbsp;‘Coming Soon’
+                        {/* &nbsp;‘Coming Soon’ */}‘Coming Soon’
                         <span className="text-under-1"></span>
                       </strong>
-                      &nbsp;listings into lead magnets
+                      {/* &nbsp;listings into lead magnets */}
+                      listings into lead magnets
                       <span className="text-under-2"></span>
                     </h1>
                     <p>Double-end more deals</p>
@@ -1010,7 +1011,7 @@ function App() {
                     <a href="/public/content/policy">&nbsp;Privacy policy</a>.
                   </p>
                   <div>
-                    <span>
+                    <span style={{lineHeight: "26px"}}>
                       <i>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
